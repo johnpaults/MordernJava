@@ -23,5 +23,14 @@ public class RunnableTradExample {
         };
 
         new Thread(lamdaRunnable).start();
+
+        //Implement Thread with lamda
+
+        new Thread(() -> {
+            int sum = 0;
+            for (int i = 1; i < 10; i++)
+                sum = sum + i;
+            System.out.println("\"Lamda Implemented in thread\" Sum is " + sum);
+        }).start();
     }
 }
