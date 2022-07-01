@@ -1,4 +1,4 @@
-package org.example.lamda;
+package org.modern.java8.lamda;
 
 import java.util.Arrays;
 import java.util.List;

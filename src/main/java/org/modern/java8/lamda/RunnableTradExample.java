@@ -1,4 +1,4 @@
-package org.example.lamda;
+package org.modern.java8.lamda;
 
 public class RunnableTradExample {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package org.example.lamda;
+package org.modern.java8.lamda;
 
 public class HelloLamdaTraditional implements HelloLamda{
 
