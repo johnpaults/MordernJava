@@ -1,4 +1,4 @@
-package org.modern.java8.functionainterfaces;
+package org.modern.java8.functionalinterfaces;
 
 import java.util.ArrayList;
 import java.util.Arrays;

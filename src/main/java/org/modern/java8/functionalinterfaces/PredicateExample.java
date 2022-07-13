@@ -1,4 +1,4 @@
-package org.modern.java8.functionainterfaces;
+package org.modern.java8.functionalinterfaces;
 
 import java.util.List;
 import java.util.function.BiConsumer;
