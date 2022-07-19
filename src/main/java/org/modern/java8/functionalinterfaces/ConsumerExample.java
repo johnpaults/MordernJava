@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.function.Consumer;
 
 public class ConsumerExample {
-    //Consumer is like setter
+    //Consumer is like setter. Does not return values
     public static void main(String[] args) {
         Consumer<String> c = (v) -> System.out.println("value is " + v);
         c.accept("hi there");
@@ -14,7 +14,7 @@ public class ConsumerExample {
         ArrayList<Instructor> instructors = new InstructorGenerator().getAll();
 
         System.out.println("---------------");
-        Consumer<Instructor> c1 = (instructor) -> System.out.println("instructor = " + instructor);
+        Consumer<Instructor> c1 = System.out::println;
         instructors.forEach(c1);
         System.out.println("---------------");
 

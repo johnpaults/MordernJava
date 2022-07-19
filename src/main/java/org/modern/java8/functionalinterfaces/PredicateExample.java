@@ -54,6 +54,5 @@ public class PredicateExample {
                 System.out.println(instructor.getName() + " is with more than "+ exep +" years of experience but" +
                         " not available for online courses");
         });
-
     }
 }

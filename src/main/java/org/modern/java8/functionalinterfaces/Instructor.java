@@ -17,6 +17,9 @@ public class Instructor {
         this.experience = experience;
         this.isOnlineAvailable = isOnlineAvailable;
     }
+    public Instructor(String name) {
+        this.name = name;
+    }
 
     public String getName() {
         return name;
