@@ -1,4 +1,4 @@
-package org.modern.java8.function.variablescope;
+package org.modern.java8.variablescope;
 
 import org.modern.java8.function.functionalinterfaces.Instructor;
 import org.modern.java8.function.functionalinterfaces.InstructorGenerator;

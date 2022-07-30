@@ -1,4 +1,4 @@
-package org.modern.java8.function.comparator;
+package org.modern.java8.comparator;
 
 import java.util.Comparator;
 import java.util.function.BiFunction;

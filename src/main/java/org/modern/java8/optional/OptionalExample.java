@@ -1,4 +1,4 @@
-package org.modern.java8.function.optional;
+package org.modern.java8.optional;
 
 import java.util.Optional;
 

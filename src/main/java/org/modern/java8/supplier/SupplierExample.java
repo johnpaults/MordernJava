@@ -1,4 +1,4 @@
-package org.modern.java8.function.supplier;
+package org.modern.java8.supplier;
 
 import java.util.function.Supplier;
 

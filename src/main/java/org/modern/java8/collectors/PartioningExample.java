@@ -12,7 +12,6 @@ import java.util.stream.Collectors;
 public class PartioningExample {
     public static void main(String[] args) {
         //Partition Instructor on experience > 10
-
         Predicate<Instructor> expePredicate = instructor -> instructor.getExperience() > 10;
         Map<Boolean, List<Instructor>> partListMap = InstructorGenerator.getAll().stream()
                 .collect(Collectors.partitioningBy(expePredicate));

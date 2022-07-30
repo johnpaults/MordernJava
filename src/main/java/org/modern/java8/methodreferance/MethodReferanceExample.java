@@ -1,4 +1,4 @@
-package org.modern.java8.function.methodreferance;
+package org.modern.java8.methodreferance;
 
 import org.modern.java8.function.functionalinterfaces.Instructor;
 
