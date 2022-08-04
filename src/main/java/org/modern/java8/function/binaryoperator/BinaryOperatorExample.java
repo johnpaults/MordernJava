@@ -25,7 +25,5 @@ public class BinaryOperatorExample {
         BinaryOperator<Integer> minBy = BinaryOperator.minBy(comparator);
         System.out.println("minBy.apply(10, 5) = " + minBy.apply(10, 5));
         System.out.println("----------------------------------------");
-
-
     }
 }
